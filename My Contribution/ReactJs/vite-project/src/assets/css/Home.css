@@ -1,0 +1,230 @@
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+    max-width: 1150px;
+    position: relative;
+    margin: auto;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+@keyframes livecountanimation {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+.live-counts_i{
+    opacity: 0;
+}
+.live-counts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+    padding-left: 100px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.176);
+    animation: livecountanimation 2s ease-in-out;
+}
+
+.live-counts_2{
+    text-align: center;
+    width: 300px;
+    padding-right: 50px;
+}
+
+.live-counts_1{
+    text-align: center;
+    width: 300px;
+    border-right: 1rem;
+    border-right: 1px solid #ddd;
+    padding-right: 50px;
+}
+
+.live-counts hr {
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+    margin: 10px 0;
+}
+
+.live-counts p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.live-counts span {
+    font-style: Arial;
+    font-size: 6em;
+    font-weight: bold;
+    display: inline-block;
+}
+.home-notice{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background: #ebebeb;
+    margin-top: 100px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.176);
+}
+.home-notice div{
+    display: flex;
+    align-items: cen;
+    height: 70px;
+    margin-left: 30px;
+    border-left: 3px solid orange;
+}
+.home-notice h1{
+    padding-left: 60px;
+}
+.home-notice div p{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.top-faculties{
+    margin-top: 60px;
+}
+.top-faculties h1{
+    text-align: center;
+}
+.top-faculties_1{
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top-faculties_1 div div{
+    width: 350px;
+}
+.top-faculties_1 div div p{
+    font-weight: 550;
+}
+.top-faculties_1 div h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.top-faculties_1_profile_i{
+    opacity: 0;
+}
+.top-faculties_1_profile{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+    animation: livecountanimation 1.5s ease-in-out;
+}
+.top-news{
+    margin-top: 60px;
+}
+.top-news_1{
+    margin-top: 70px;
+    display: flex;
+}
+.top-news_1 div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.top-news_1 img{
+    height: 340px;
+    width: 500px;
+}
+.top-news_1_img{
+    opacity: 0;
+}
+@keyframes imagefade {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+@keyframes imagefade1 {
+    from {
+        opacity: 0;
+        transform: translateX(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+.top-news_1_img_animation{
+    animation: imagefade 1.5s ease-in;
+}
+.top-news_1_img_animation1{
+    animation: imagefade1 2s ease-in;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.top-news_2{
+    opacity: 0;
+}
+.animation {
+    animation: fadeIn 1.5s ease-out;
+}
+.about-us{
+    margin-top: 60px;
+}
+.about-us h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.about-us p{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.about-us h4{
+    text-align: center;
+}
+

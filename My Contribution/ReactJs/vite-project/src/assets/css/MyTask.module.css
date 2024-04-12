@@ -1,0 +1,118 @@
+*{margin:0;
+    padding: 0;
+    border: border-box;
+    font-style:normal;
+}
+.teacher{
+    display:flex;
+    flex-direction: row;
+
+}
+.position
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 73px;
+    margin-top: 7px;
+}
+.mytask
+{
+    background-color: #EAF1F3;
+    height: 437px;
+    overflow-x: scroll;
+}
+.condition
+{
+    display: flex;
+    flex-direction: row;
+}
+.div
+{
+    display: flex;
+    flex-direction: row;
+}
+.box1
+{
+    display: flex;
+    flex-direction:row;
+}
+
+.firstConditation
+{
+ display: inline-block;
+  position: relative;
+}
+.firstConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+.firstConditation:hover:after
+{
+    transform: scaleX(1);
+    transform-origin:center;
+}
+
+.secondConditation
+{
+  display: inline-block;
+  position: relative;
+   
+}
+
+.secondConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+
+
+.secondConditation:hover:after{
+   transform: scaleX(1);
+   transform-origin:center;
+   
+  }
+
+  .thirdConditation
+{
+  display: inline-block;
+  position: relative;
+   
+}
+
+.thirdConditation:after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #237696;
+    transform-origin:center;
+    transition:0.25s ease-out;
+}
+
+
+.thirdConditation:hover:after{
+   transform: scaleX(1);
+   transform-origin:center;
+   
+  }

@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .screen
+    {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('rain2.jpg') no-repeat center center/cover;
+    }
+   .form
+   {
+       height:650px;
+        width:570px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        background-color: rgba(255,255,255,0.13);
+    
+   }
+   .log{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: white;
+   }
+.img
+{
+    height:100px;
+    width:100px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.dept
+{
+    display: flex;
+}
+/* .downbtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.border
+{
+     border: 2px solid transparent;   
+}
+.b:hover
+  {
+    border: 2px solid;
+  }
+.btn
+{
+    width:400px;
+    height:50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+}
+.downbtn{
+    min-height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#D9D9D9;
+    border:none;
+  }
+  
+  select{
+    border:none;
+    width: 393px;
+    border-radius:5px;
+    padding: 0px 0px;
+    background-color: #D9D9D9;
+  }
+  
+  select:focus{
+    outline:none;
+    
+  }
+  .click
+  {
+    display: flex;
+  }
+
+  .Login:hover
+  {
+    transform: scale(1.1);
+  }
+  .click:hover
+  {
+    transform: scale(1.1);
+  }

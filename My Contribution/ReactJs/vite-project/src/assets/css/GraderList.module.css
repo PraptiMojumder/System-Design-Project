@@ -1,0 +1,21 @@
+*{margin:0;
+    padding: 0;
+    border: border-box;
+    font-style:normal;
+}
+.UA:hover
+  {
+    transform: scale(1.1);
+    border: 2px solid;
+  }
+  .Gra:hover
+  {
+    transform: scale(1.1);
+  }
+
+ .inline
+  {
+    transform: rotate(0deg);
+    border: 2px solid #D9D9D9;
+    border-radius: 40px;
+  }

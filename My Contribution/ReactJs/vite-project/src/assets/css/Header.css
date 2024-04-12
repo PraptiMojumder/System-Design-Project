@@ -1,0 +1,54 @@
+.header-top{
+    height: 70px;
+    background-color: #1E2041;
+    display: flex;
+    align-items: center;
+}
+.header-top img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+.header-top p{
+    margin-left: 10px;
+    color: white;
+}
+.header-top p:hover{
+    cursor: pointer;
+    color: #1F5C73;
+}
+.bell{
+    color: rgb(124, 180, 124);
+    margin-left:  500px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.bell:hover{
+    color: white;
+}
+.home{
+    height: 20px;
+    width: 20px;
+    color: rgb(190, 189, 189);
+    padding-left: 420px;
+}
+.header-top h3{
+    margin-left: 7px;
+    color: rgb(190, 189, 189);
+    cursor: pointer;
+}
+.header-top h3:hover{
+    color: white;
+}
+.search{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    color: rgb(190, 189, 189);
+    margin-left: 85px;
+}
+.search:hover{
+    color: white;
+}

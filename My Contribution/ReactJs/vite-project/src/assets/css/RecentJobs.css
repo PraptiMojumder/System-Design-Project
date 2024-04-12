@@ -1,0 +1,112 @@
+.header-job{
+    margin-top: 60px;
+    display: flex;
+}
+.header-job_img1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 45px;
+}
+.header-job_img2{
+    display: flex;
+    height: 350px;
+    width: 550px;
+    display: flex;
+    position: relative;
+    right: 45px;
+}
+.header-job_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.job_info_fname{
+    max-width: fit-content;
+    margin-top: 5px;
+    font-size: large;
+}
+.job_info_fname:hover{
+    color: #1F5C73;
+    cursor: pointer;
+}
+.job_info_fstatus{
+    margin-top: -23px;
+}
+.job_info_postdate{
+    margin-top: -22px;
+    font-size: 13px;
+}
+.job_info_jobtitle{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.job_info_position{
+    margin-top: -17px;
+}
+.job_info_description{
+    font-size: 15px;
+    margin-top: -3px;
+}
+.job_info_details{
+    margin-top: -15px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.job_info_details_not{
+    margin-top: -15px;
+}
+.read-more{
+    display: flex;
+    flex-direction: row;
+}
+.read-more span{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.readicon{
+    margin-top: -11px;
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+    color: #BB1010;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.readicon:hover{
+    transform: scale(1.1);
+}
+.job_info_visit{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.job_info_link{
+    margin-top: -15px;
+    max-width: fit-content;
+    text-decoration: none;
+}
+.gray-line {
+    margin-top: 35px;
+    border-top: 1px solid #647AA9;
+    width: 87.6%;
+    margin-left: 119px;
+}
+
+.rakib{
+    position: relative;
+    top: -185px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.rakib_not{
+    position: relative;
+    top: -185px;
+}

@@ -1,0 +1,60 @@
+.search-bar{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid orange;
+}
+.search-bar button{
+    height: 34px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+    color: rgb(189, 129, 129);
+    cursor: pointer;
+}
+.search-bar_1{
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 200px;
+    padding: 2px;
+}
+.search-bar_1_not{
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 200px;
+    padding: 2px;
+    visibility: hidden;
+}
+.search-bar_1 h5{
+    cursor: pointer;
+    max-width: fit-content;
+}
+.search-bar_1 div{
+    padding: 4px;
+}
+.faculty-profile{
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    padding-left: 100px;
+}
+.faculty-profile img{
+    height: 100px;
+    width: 100px;
+}
+.faculty-profile div{
+    padding-left: 30px;
+}
+.faculty-profile div h4{
+    margin-top: 0;
+}

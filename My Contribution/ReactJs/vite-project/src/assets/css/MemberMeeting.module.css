@@ -1,0 +1,149 @@
+*{margin:0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .meet{
+      height:765px;
+      width:984px;
+      background-color:#F5F2F2;
+      margin: auto;
+      text-align: center;
+      border-radius: 15px;
+      
+      
+    }
+    .Hline{
+      margin-top: 60px;
+      width: 788px;
+      height: 200px;
+      color:black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .back
+    {
+      height:64px;
+      width:91px;
+      background-color: white;
+      margin-right:10px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-style: solid;
+      border-width: 0.1rem;
+      
+    }
+    .meetdescrip
+    {
+      width: 617px;
+      height: 150px;
+      background-color: white;
+      color: gray;
+      margin-top: 5px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+  
+    }
+    .optn
+    {
+      width: 617px;
+      height: 500px;
+      margin-left: 150px;
+      background-color:#F5F2F2;
+      text-align: left;
+      border-radius: 15px;
+    }
+  
+    .met
+    {
+      display: flex;
+      margin-top: 40px;
+      border-radius: 15px;
+    }
+  
+  
+     .select
+     {
+      width:600px;
+      height:50px;
+      display: flex;
+      margin-top: 10px;
+      border-radius: 15px;
+     }
+    
+    .date
+    {
+      margin-top: 5px;
+      width: 256px;
+      height: 50px;
+      background-color: white;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+    }
+    .time
+    {
+      margin-top: 5px;
+      width: 250px;
+      height: 50px;
+      background-color: white;
+      margin-left: 50px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    justify-content:space-evenly;
+    }
+    
+    .link
+    {
+      margin-top: 40px;
+      width: 520px;
+      height: 47px;
+      background-color: white;
+      color: gray;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      outline:none;
+    }
+    .creat
+    {
+      margin-top: 30px;
+      width: 545px;
+      height: 47px;
+      background-color:#E97D7D;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 15px;
+    }
+    .border
+    {
+      border: 2px solid;
+    }
+    .creat:hover
+    {
+      transform: scale(1.1);
+      border: 2px solid;
+    }
+    .cborder
+    {
+      border: 2px transparent;
+    }
+    .back:hover
+    {
+      transform: scale(1.1);
+      border: 2px solid Black;
+      background-color:#496DEB;
+    }
+  
